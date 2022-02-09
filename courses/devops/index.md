@@ -14,7 +14,3 @@ The DevOps culture focus on one goal throughout the entire software delivery lif
 ## Prerequisites
 
 Web and database technologies, command line usage, basic programming skills.
-
-## Notes
-
-Speak about Gravatar, Hackernews, password manager, ...
