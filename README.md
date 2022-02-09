@@ -39,6 +39,8 @@ Navigate inside the [`./courses/devops`](courses/devops) folder to read the raw 
 
 The slides are available on Netlify as a static website - [ece-devops-2022-spring.netlify.app](https://ece-devops-2022-spring.netlify.app/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ad68890-b1bf-4ca4-aebc-83ff9a773728/deploy-status)](https://app.netlify.com/sites/ece-devops-2022-spring/deploys)
+
 ### Build slides locally as a static website
 
 Run the following commands to get the site up and running.
