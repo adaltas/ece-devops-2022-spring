@@ -7,9 +7,9 @@ Materials for the DevOps course at ECE.
 
 1. Introduction to DevOps
 2. Source Control Management (SCM)
-3. Infrastructure as code (IaC) | with Ansible
-4. Continuous Testing
-5. Continuous Integration & Continuous Delivery (CI/CD) | with GitHub Actions and Heroku
+3. Continuous Testing | Building application on Node.js
+4. Continuous Integration & Continuous Delivery (CI/CD) | with GitHub Actions and Heroku
+5. Infrastructure as code (IaC) | with Ansible
 6. Containerization | with Docker
 7. Containers orchestration | with Kubernetes
 8. Cloud-native applications. Microservice architecture | with Istio
