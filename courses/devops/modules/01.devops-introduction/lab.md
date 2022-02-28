@@ -3,20 +3,20 @@
 
 Implementing DevOps to IT companies is starting from writing a clean and high-quality source code as well as its documentation. The goal of the lab is to learn the proper way of creating an IT project following best practices. 
 
-As an example of programming language, we will use JavaScript with its server-side runtime - [NodeJS](https://nodejs.org/en/). It is one of the most popular languages for developing various types of applications, and it's very easy to get started with.
+As an example of programming language, we will use JavaScript with its server-side runtime - [Node.js](https://nodejs.org/en/). It is one of the most popular languages for developing various types of applications, and it's very easy to get started with.
 
 > **Note.** You are not obliged to use JavaScript for the lab, you are allowed to repeat similar steps using any other programming language like Python, Java, C++, or up to your choice, but the realization of these steps will be different for the specific runtime.
 
 ## Objectives
 
 1. Start a project
-2. Initialize a NodeJS package
-3. Create a NodeJS script
-4. Create a web application using the ExpressJS package
+2. Initialize a Node.js package
+3. Create a Node.js script
+4. Create a web application using the Express package
 5. Create a `CHANGELOG.md` file
 6. Describe the project in a `README.md` file
 
-As result, you will achieve creation a documented project on NodeJS of a simple web server displaying a "Hello world!" message on a home page.
+As result, you will achieve creation a documented project on Node.js of a simple web server displaying a "Hello world!" message on a home page.
 
 ## Before starting
 
@@ -25,7 +25,7 @@ As result, you will achieve creation a documented project on NodeJS of a simple 
   - Windows: https://gitforwindows.org/
   - Linux: https://git-scm.com/download/linux
   - macOS: https://git-scm.com/download/mac   
-3. Install **NodeJS**: https://nodejs.org/
+3. Install **Node.js**: https://nodejs.org/
 4. Open a command-line interface:
   - macOS or Linux: use **Terminal**
   - Windows: use **Git Bash** (should be installed when installing Git). **Note!** Don't use default *CMD.exe*, because it has different commands from a command line of the Linux OS, which is used in most IT environments.
@@ -64,18 +64,18 @@ cd myschool-devops-myproject
 git init
 ```
 
-## 2. Initialize a NodeJS package
+## 2. Initialize a Node.js package
 
-1. Initialize a NodeJS package running this command:
+1. Initialize a Node.js package running this command:
 
 ```bash
 npm init -y
 ```
-This will create an initial `package.json` file with the package (NodeJS project) description. Later, you can manually modify the content respecting the [JSON format](https://en.wikipedia.org/wiki/JSON). For example, these values:
+This will create an initial `package.json` file with the package (Node.js project) description. Later, you can manually modify the content respecting the [JSON format](https://en.wikipedia.org/wiki/JSON). For example, these values:
   - `author`
   - `description`
 
-[Read more about NodeJS packages and modules](https://docs.npmjs.com/about-packages-and-modules)
+[Read more about Node.js packages and modules](https://docs.npmjs.com/about-packages-and-modules)
 
 [Read more about `package.json` file](https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/)
 
@@ -89,7 +89,7 @@ npm test
 
 It will run the bash script `echo \"Error: no test specified\" && exit 1` defined in the `package.json` file, which outputs the string `Error: no test specified` to stdout.
 
-## 3. Create a NodeJS script 
+## 3. Create a Node.js script 
 
 Now, we start using a text editor or IDE (Atom, VS Code, WebStorm, or up to your choice). 
 
@@ -108,17 +108,17 @@ code .
 2. Create a file `index.js` with the following content:
 
 ```js
-str = "Hello NodeJS!"
+str = "Hello Node.js!"
 console.log(str)
 ```
 
-3. Run the NodeJS script in the terminal:
+3. Run the Node.js script in the terminal:
 
 ```bash
 node index.js
 ```
 
-It will print the message `Hello NodeJS!`.
+It will print the message `Hello Node.js!`.
 
 4. Define this command as an NPM script. Modify in the `package.json` file like this:
 
@@ -141,9 +141,9 @@ npm start
 
 It will do the same as in step 2.
 
-## 4. Create a web application using ExpressJS package
+## 4. Create a web application using Express package
 
-1. Install the [ExpressJS](https://www.npmjs.com/package/express) package:
+1. Install the [Express](https://www.npmjs.com/package/express) package:
 
 ```bash
 npm install express
@@ -161,7 +161,7 @@ Also, this command will add a dependency to your `package.json` like:
 ...  
 ``` 
 
-It is a NodeJS (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install PACKAGE_NAME`. You can experiment with it by removing the entire `node_modules` folder and running the `npm install` command.
+It is a Node.js (actually NPM) "feature" to let developers install all the necessary packages for the current project using just one single command, instead of installing each package repeating such a command like `npm install PACKAGE_NAME`. You can experiment with it by removing the entire `node_modules` folder and running the `npm install` command.
 
 2. Modify the `index.js` file with the following content:
 

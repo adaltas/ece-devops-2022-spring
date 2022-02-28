@@ -165,6 +165,7 @@ For example, you have multiple configuration files in your project `myproj`:
 - for different components (`db` for a database, `app` for an application)
 
 The best practice, in this case, would be to choose the format:
+
 ```
 project_component_environment
 ```
